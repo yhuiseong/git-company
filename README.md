@@ -31,8 +31,10 @@
 > ### Microsoft Visual Studio    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    For Windows
 >
 > <a>The most comprehensive IDE for .NET and C++ developers on Windows. Fully <br> packed with a sweet array of tools and features to elevate and enhance every <br> stage of software development.</a>
-
- 
+>
+>
+> [Learn More](https://visualstudio.microsoft.com/#vs-section)
+>
 
 > <br>
 > <p>
@@ -44,8 +46,12 @@
 > 
 > ### Microsoft Visual Studio    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    For Windows
 >
-> <a>The most comprehensive IDE for .NET and C++ developers on Windows. Fully <br> packed with a sweet array of tools and features to elevate and enhance every <br> stage of software development.</a>
+> <a>A standalone source code editor that runs on Windows, macOS, and Linux. <br> The top pick for JavaScript and web developers, with extensions to support <br> just about any programming language.</a>
+> 
+> 
+> [Learn More](https://visualstudio.microsoft.com/#vscode-section)
 >
+ 
 
 # To-Do List
 - [ ] readme 작성

@@ -33,8 +33,12 @@
 > <a>The most comprehensive IDE for .NET and C++ developers on Windows. Fully <br> packed with a sweet array of tools and features to elevate and enhance every <br> stage of software development.</a>
 >
 >
-> [Learn More](https://visualstudio.microsoft.com/#vs-section)
+> [Learn More](https://visualstudio.microsoft.com/#vs-section "VisualStudio")
 >
+
+<br>
+<br>
+<br>
 
 > <br>
 > <p>
@@ -44,12 +48,12 @@
 >    src="https://visualstudio.microsoft.com/wp-content/uploads/2019/09/vs-code-responsive-01-1.png">
 > </p>
 > 
-> ### Microsoft Visual Studio    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    For Windows
+> ### Microsoft Visual Studio Code   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    For Windows, macOS, Linux
 >
 > <a>A standalone source code editor that runs on Windows, macOS, and Linux. <br> The top pick for JavaScript and web developers, with extensions to support <br> just about any programming language.</a>
 > 
 > 
-> [Learn More](https://visualstudio.microsoft.com/#vscode-section)
+> [Learn More](https://visualstudio.microsoft.com/#vscode-section "VisualStudioCode")
 >
  
 

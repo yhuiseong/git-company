@@ -21,3 +21,12 @@
 
 # Documentation
 
+<p align="center">
+    <img
+      width="32px"
+      height="32px"
+      src="https://visualstudio.microsoft.com/wp-content/uploads/2022/10/Visual-Studio_Icon.svg"> 
+</p>
+    
+
+  

@@ -44,7 +44,7 @@
 
 # How it works
 
-> [!note]
+> [!NOTE]
 > 현재 개설된지 얼마 안된 동아리이기 때문에 규칙 및 활동이 유동적으로 변경될 수 있습니다.
 
 <br>
@@ -57,6 +57,8 @@
 
 <br>
 
+## Softwares 
+
 > <p>
 >  <img 
 >    width="64px"
@@ -66,17 +68,12 @@
 > 
 > ### Microsoft Visual Studio    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    For Windows
 >
-> <a>The most comprehensive IDE for .NET and C++ developers on Windows. Fully <br> packed with a sweet array of tools and features to elevate and enhance every <br> stage of software development.</a>
+> <p>The most comprehensive IDE for .NET and C++ developers on Windows. Fully <br> packed with a sweet array of tools and features to elevate and enhance every <br> stage of software development.</p>
 >
 >
 > [Learn More](https://visualstudio.microsoft.com/#vs-section "VisualStudio")
 > 
 
-
-
-
-<br>
-<br>
 <br>
 
 > <p>
@@ -88,13 +85,15 @@
 > 
 > ### Microsoft Visual Studio Code   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    For Windows, macOS, Linux
 >
-> <a>A standalone source code editor that runs on Windows, macOS, and Linux. <br> The top pick for JavaScript and web developers, with extensions to support <br> just about any programming language.</a>
+> <p>A standalone source code editor that runs on Windows, macOS, and Linux. <br> The top pick for JavaScript and web developers, with extensions to support <br> just about any programming language.</p>
 > 
 > 
 > [Learn More](https://visualstudio.microsoft.com/#vscode-section "VisualStudioCode")
 
 <br>
-<br>
+
+## Wikies
+
 <br>
 
 > <p>
@@ -106,12 +105,28 @@
 > 
 > ### MDN Web Docs   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    For Web
 >
-> <a>MDN Docs is an open-source collaborative project documenting Web platform technologies, <br> including CSS, HTML, JavaScript, and Web APIs. We also provide an extensive set of learning resources <br> for beginning developers and students.</a>
+> <p>MDN Docs is an open-source collaborative project documenting Web platform technologies, <br> including CSS, HTML, JavaScript, and Web APIs. We also provide an extensive set of learning resources <br> for beginning developers and students.</p>
 > 
 > 
 > [Learn More](https://developer.mozilla.org/ko/ "MdnWebDocs")
 > 
 
+<br>
+
+> <p>
+>  <img 
+>    width="64px"
+>    height="64px"
+>    src="https://pngimg.com/uploads/microsoft/microsoft_PNG5.png">
+> </p>
+>
+> ### Microsoft Technical documentation   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    For Windows
+>
+> <p>Build skills that open doors. See all you can do with documentation, hands-on training, <br> and certifications to help you get the most from Microsoft products.</p>
+> 
+> 
+> [Learn More](https://learn.microsoft.com/ko-kr/docs/ "MsDocumentation")
+> 
  
 
 # To-Do List

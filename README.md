@@ -10,8 +10,26 @@
       src="Light-Icon"
     />
   </picture>
-  <b>Git-company</b><br>
+  <b>Git-company</b>
+  <br>
   Repository of club "Git-company" from measung high school
+  
+  <br>
+  
+  <p align="center">
+    <a href="https://github.com/ReVanced">
+       <picture>&nbsp;
+           <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/dMMmCrW/Git-Hub-Mark.png" />
+           <img height="24px" src="https://i.ibb.co/9wV3HGF/Git-Hub-Mark-Light.png" />
+       </picture>
+   </a>&nbsp;&nbsp;&nbsp;
+   <a href="https://discord.com/invite/sANqDryu">
+       <picture>
+           <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
+           <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
+       </picture>
+   </a>
+  </p>
 </p>
 
 # About
@@ -57,6 +75,25 @@
 > 
 > 
 > [Learn More](https://visualstudio.microsoft.com/#vscode-section "VisualStudioCode")
+
+<br>
+<br>
+<br>
+
+> <br>
+> <p>
+>  <img 
+>    width="auto"
+>    height="64px"
+>    src="https://blog.mozilla.org/opendesign/files/2017/06/logo.png">
+> </p>
+> 
+> ### MDN Web Docs   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    For Web
+>
+> <a>MDN Docs is an open-source collaborative project documenting Web platform technologies, <br> including CSS, HTML, JavaScript, and Web APIs. We also provide an extensive set of learning resources <br> for beginning developers and students.</a>
+> 
+> 
+> [Learn More](https://developer.mozilla.org/ko/ "MdnWebDocs")
 > 
 
  

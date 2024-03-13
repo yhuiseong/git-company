@@ -17,7 +17,7 @@
   <br>
   
   <p align="center">
-    <a href="https://github.com/ReVanced">
+    <a href="https://github.com/maesung-git-company/git-company">
        <picture>&nbsp;
            <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/dMMmCrW/Git-Hub-Mark.png" />
            <img height="24px" src="https://i.ibb.co/9wV3HGF/Git-Hub-Mark-Light.png" />

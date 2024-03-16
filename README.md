@@ -1,15 +1,18 @@
 <p align="center">
   <picture>
     <source
-      width="256px"
+      width="612px"
       media="(prefers-color-scheme: dark)"
       srcset="https://raw.githubusercontent.com/maesung-git-company/git-company/main/resource/company_logo_red.png"
     />
     <img 
-      width="256px"
+      width="612px"
       src="https://raw.githubusercontent.com/maesung-git-company/git-company/main/resource/company_logo_black.png"
     />
   </picture>
+  
+  <br>
+  
   <b>Git-company</b>
   <br>
   Repository of club "Git-company" from measung high school

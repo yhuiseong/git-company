@@ -3,11 +3,11 @@
     <source
       width="256px"
       media="(prefers-color-scheme: dark)"
-      srcset="Dark-Icon"
+      srcset="https://raw.githubusercontent.com/maesung-git-company/git-company/main/resource/company_logo_red.png"
     />
     <img 
       width="256px"
-      src="Light-Icon"
+      src="https://raw.githubusercontent.com/maesung-git-company/git-company/main/resource/company_logo_black.png"
     />
   </picture>
   <b>Git-company</b>

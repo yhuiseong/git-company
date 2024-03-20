@@ -12,11 +12,11 @@
   </picture>
   
   <br>
-  
+  <a align="center">
   <b>Git-company</b>
   <br>
   Repository of club "Git-company" from measung high school
-  
+  </a>
   <br>
   
   <p align="center">

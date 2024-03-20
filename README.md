@@ -135,6 +135,6 @@
  
 
 # To-Do List
-- [ ] readme 작성
+- [ ] readme 작성 - Work In Progress
 - [ ] Docs 작성
   

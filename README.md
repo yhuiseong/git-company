@@ -32,6 +32,12 @@
            <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
            <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
        </picture>
+   </a>&nbsp;&nbsp;&nbsp;
+   <a href="https://docs.google.com/document/d/18_onMY48GaWhOkhCH8k5Vpi3oLem87m6sBqA7pNUiAk/edit?usp=sharing">
+       <picture>
+           <source height="24px" media="(prefers-color-scheme: dark)" srcset="!https://github.com/maesung-git-company/git-company/assets/162787283/b1e5e8fe-efce-4f5d-aa2d-0d695255d2bb" />
+           <img height="24px" src="https://github.com/maesung-git-company/git-company/assets/162787283/5bf711af-2230-49b2-aa68-b6db7ee969c3" />
+       </picture>
    </a>
   </p>
 </p>

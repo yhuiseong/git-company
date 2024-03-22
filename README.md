@@ -1,4 +1,4 @@
-<p align="center">앙 기모띠.</p>
+<p align="center">환영합니다.</p>
 
 
 <br>

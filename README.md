@@ -1,3 +1,6 @@
+<p align="center">이주원 바보</p>
+
+
 <br>
 <p align="center">
   <picture>

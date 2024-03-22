@@ -1,3 +1,4 @@
+
 # 두 수를 입력 받으면 사칙연산을 수행하는 프로그램을 제작
 
 def add(x, y):
@@ -8,6 +9,7 @@ def subtract(x, y):
 
 def multiply(x, y):
     return x * y
+# asdfasdf
 
 def divide(x, y):
     if y == 0:
@@ -23,5 +25,3 @@ print("두 수의 합:", add(n1, n2))
 print("두 수의 차:", subtract(n1, n2))
 print("두 수의 곱:", multiply(n1, n2))
 print("두 수를 나눈 값:", divide(n1, n2))
-
-print("+) 지금 원하는 것: 팡세 안하고 집가고 싶다")

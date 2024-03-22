@@ -1,4 +1,4 @@
-<p align="center">이주원 바보</p>
+<p align="center">자진입대를 환영합니다.</p>
 
 
 <br>

@@ -1,1 +1,1 @@
-나는 노예다
+5/10 Supabase 연결 및 Pedometer lib 설치 / 본격적으로 시작

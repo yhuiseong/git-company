@@ -1,7 +1,7 @@
 import 'package:contract/widget/step_counter.dart';
 import 'package:flutter/material.dart';
 
-import '../structure/class/activityData.dart';
+import '../structure/class/activity_data.dart';
 
 class HomeContent extends StatelessWidget {
   const HomeContent({super.key, this.activityData});

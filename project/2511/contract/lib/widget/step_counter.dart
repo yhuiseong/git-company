@@ -1,6 +1,8 @@
-import 'package:contract/structure/class/activityData.dart';
+import 'package:contract/structure/class/activity_data.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:pedometer/pedometer.dart';
+
+import '../core/global.dart';
 
 class StepCounter extends StatefulWidget {
   const StepCounter({super.key});
@@ -21,8 +23,9 @@ class _StepCounterState extends State<StepCounter> {
   }
 
   void onStepCount(StepCount event) {
+    Global.activityData.step += 1;
     setState(() {
-      _steps = event.steps.toString();
+      _steps = Global.activityData.step.toString();
     });
   }
 

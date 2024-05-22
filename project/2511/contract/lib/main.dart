@@ -1,10 +1,12 @@
 import 'package:contract/page/home/home_page.dart';
-import 'package:contract/structure/class/activityData.dart';
-import 'package:contract/widget/home_content.dart';
+import 'package:contract/page/login/login_page.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+
+import 'core/global.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,6 +16,12 @@ Future<void> main() async {
     url: dotenv.get('SUPABASE_URL'),
     anonKey: dotenv.get('SUPABASE_KEY'),
   );
+
+  final prefs = await SharedPreferences.getInstance();
+  prefs.remove("login_id");  // todo remove
+
+  int? loginId = prefs.getInt('login_id');
+  Global.userData.id = loginId;
 
   runApp(Contract());
 }
@@ -26,16 +34,22 @@ class Contract extends StatefulWidget {
 }
 
 class _ContractState extends State<Contract> {
-  ActivityData activityData = ActivityData();
-
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-        title: 'TitleMain',
-        home: Scaffold(
-          body: HomePage(),
-        )
+    late Widget page;
+
+    page = Global.userData.id != null ? HomePage() : LoginPage();
+    // if (Global.userData.id == null) {
+    //   page = LoginPage();
+    // }
+    // else {
+    //   page = HomePage();
+    // }
+
+    return MaterialApp(
+      home: page
     );
   }
 }
+
 

@@ -1,0 +1,119 @@
+이름:중학교 국어 문법 학습 보조 프로그램
+참가자:양희성
+
+개발 방식:미정
+
+
+= 기록 =
+1주차
+- 기획
+ 파이썬을 이용한 프로그램 코드 제작 및 학습
+- 실제로 한 것
+(1. 코드제작)
+import json
+
+# 문법 규칙 및 연습 문제 예시
+grammar_data = {
+    "문법 규칙": {
+        "조사": "체언 뒤에 붙어 그 말과 다른 말과의 문법적 관계를 나타내는 말",
+        "어미": "용언의 어간 뒤에 붙어 여러 가지 문법적 의미를 나타내는 말",
+        "형용사": "사물의 성질이나 상태를 나타내는 품사",
+        "부사": "용언이나 다른 부사, 문장 전체 등을 꾸며 주는 품사",
+        "동사": "사람이나 사물의 동작, 작용, 상태 따위를 나타내는 품사"
+    },
+    "연습 문제": [
+        {
+            "question": "다음 중 조사가 사용된 예를 고르세요.\n1. 나는 학교에 간다.\n2. 그는 친절하다.\n3. 사과가 맛있다.",
+            "answer": 1
+        },
+        {
+            "question": "다음 문장에서 어미를 찾아보세요.\n문장: 그는 열심히 공부한다.",
+            "answer": "한다"
+        },
+        {
+            "question": "형용사가 사용된 문장을 고르세요.\n1. 나는 학교에 갔다.\n2. 그는 키가 크다.\n3. 책을 읽는다.",
+            "answer": 2
+        },
+        {
+            "question": "다음 문장에서 부사를 찾아보세요.\n문장: 그는 아주 친절하다.",
+            "answer": "아주"
+        },
+        {
+            "question": "다음 중 동사가 사용된 예를 고르세요.\n1. 그녀는 아름답다.\n2. 나는 밥을 먹는다.\n3. 책이 있다.",
+            "answer": 2
+        },
+        {
+            "question": "다음 문장에서 형용사를 찾아보세요.\n문장: 그 강아지는 매우 귀엽다.",
+            "answer": "귀엽다"
+        }
+    ]
+}
+
+# 문법 데이터 저장
+with open('grammar_data.json', 'w', encoding='utf-8') as f:
+    json.dump(grammar_data, f, ensure_ascii=False, indent=4)
+
+# 문법 데이터 불러오기
+def load_grammar_data(filename='grammar_data.json'):
+    with open(filename, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+# 문법 학습 함수
+def study_grammar(grammar_rules):
+    print("문법 규칙 학습:")
+    for rule, explanation in grammar_rules.items():
+        print(f"{rule}: {explanation}")
+
+# 연습 문제 풀이 함수
+def solve_exercises(exercises):
+    score = 0
+    correct_answers = 0
+    total_questions = len(exercises)
+   
+    for idx, exercise in enumerate(exercises, 1):
+        print(f"\n문제 {idx}:")
+        print(exercise["question"])
+        answer = input("정답을 입력하세요: ")
+
+        if isinstance(exercise["answer"], int):
+            if int(answer) == exercise["answer"]:
+                print("정답입니다!")
+                score += 1
+                correct_answers += 1
+            else:
+                print(f"틀렸습니다. 정답은 {exercise['answer']}입니다.")
+        else:
+            if answer == exercise["answer"]:
+                print("정답입니다!")
+                score += 1
+                correct_answers += 1
+            else:
+                print(f"틀렸습니다. 정답은 '{exercise['answer']}'입니다.")
+   
+    print(f"\n모든 문제를 풀었습니다. 총 점수는 {score}/{total_questions}점입니다.")
+    print(f"맞힌 문제 수: {correct_answers}/{total_questions}개")
+
+if __name__ == "__main__":
+    data = load_grammar_data()
+    study_grammar(data["문법 규칙"])
+    solve_exercises(data["연습 문제"])
+(이 코드는 반복학습의 기회를 제공함으로서 다시 학습하고 개선할 수 있는 기회를 갖게 되어 학생들의 기억력 향상에 도움을 주고, 학생들이 문제를 해결하고 정확한 답을 찾을 수 있는 문제해결능력을 기르게 해줄 것 같다.)
+
+(2. 코드 학습)
+: 이 코드를 제작할때 JSON 파일에 문법 규칙과 연습 문제를 저장하고 불러오는 기능을 사용하고, study_grammar 함수는 문법 규칙을 출력하며, solve_exercises 함수는 사용자에게 문제를 제시하고 정답을 평가한다는 내용을 학습했다. 코드에는 파일 입출력, 조건문, 반복문, 예외 처리, 그리고 문자열 조작과 같은 다양한 Python 문법이 사용했다.
+
+2주차
+- 기획
+- 실제로 한 것
+
+
+3주차
+- 기획
+- 실제로 한 것
+
+
+
+= 리뷰 =
+- 개발 중 난관
+- 아쉬웠던 점
+- 소감
